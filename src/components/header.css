@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+.header-content
+{
+    color: white;
+}
+.red-dot
+{
+    color:red;
+}
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.zoom-text 
+{
+    animation: zoominoutsinglefeatured 1s infinite ;
+}
+.live-update
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.header-title
+{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Viaoda Libre', cursive;
+}
