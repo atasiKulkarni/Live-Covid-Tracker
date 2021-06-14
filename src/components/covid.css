@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');   
+
+html,body{
+  overflow-x: hidden;
+}
 body{
     background: black;
-  }.header-content
-  {
-    align-items: center;
-    justify-content: center;
   }
+  
   .card{
    border: 2px solid black;
-    width: 20rem;
+    width: 350px;
     
     color: white;
-    height: 10rem;
+    height: 200px;
     background-image: linear-gradient(orange,white, green);
     /* background-color: rgb(112, 112, 236);   */
     border-radius:20px;
@@ -23,9 +24,9 @@ body{
  .card-recovered
  {
     border: 2px solid black;
-    width: 20rem;
+    width: 350px;
     color: white;
-    height: 10rem;
+    height: 200px;
     background-color: rgb(40, 133, 40);  
     border-radius:20px;
 
@@ -36,9 +37,9 @@ body{
  .card-confirmed
  {
     border: 2px solid black;
-    width: 20rem;
+    width: 350px;
     color: white;
-    height: 10rem;
+    height: 200px;
     background-color: rgb(180, 180, 24);  
     border-radius:20px;
 }
@@ -48,9 +49,9 @@ body{
 .card-death
  {
     border: 2px solid black;
-    width: 20rem;
+    width: 350px;
     color: white;
-    height: 10rem;
+    height: 200px;
     background-color: rgb(245, 56, 56);  
     border-radius:20px;
 }
@@ -60,9 +61,9 @@ body{
   .card-active
  {
     border: 2px solid black;
-    width: 20rem;
+    width: 350px;
     color: white;
-    height: 10rem;
+    height: 200px;
     background-color: rgb(112, 112, 236);  
     border-radius:20px;
 }
@@ -72,9 +73,9 @@ body{
 .card-update
  {
     border: 2px solid black;
-    width: 20rem;
+    width: 350px;
     color: white;
-    height: 10rem;
+    height: 200px;
     background-color: rgb(23, 168, 125);  
     border-radius:20px;
 }
